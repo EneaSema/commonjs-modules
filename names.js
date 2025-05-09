@@ -4,10 +4,10 @@ La funzione dovrebbe restituire un oggetto con le proprietà firstName e lastNam
 Esporta la funzione dal file.
 */
 
-function personObject(firstName, lastName) {
+const createPerson = function personObject(firstName, lastName) {
   return { firstName, lastName };
-}
+};
 
-module.exports = personObject();
+module.exports = { createPerson };
 
-console.log(personObject("Enea", "Sema"));
+/* console.log(personObject("Enea", "Sema"));*/

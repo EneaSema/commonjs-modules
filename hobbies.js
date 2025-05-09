@@ -3,10 +3,10 @@ Crea una funzione che accetta tre parametri: hobbyOne, hobbyTwo, hobbyThree. La 
 Esporta la funzione dal file.
 */
 
-function hobbiesPerson(hobbyOne, hobbyTwo, hobbyThree) {
+const createHobbies = function hobbiesPerson(hobbyOne, hobbyTwo, hobbyThree) {
   return [hobbyOne, hobbyTwo, hobbyThree];
-}
+};
 
-module.exports = hobbiesPerson();
+module.exports = { createHobbies };
 
-console.log(hobbiesPerson(`LatinoAmericano`, `Donne`, `Relax`));
+// console.log(hobbiesPerson(`LatinoAmericano`, `Donne`, `Relax`)); //
